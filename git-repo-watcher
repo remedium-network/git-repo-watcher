@@ -53,6 +53,7 @@ if [[ ! -d "$git_repository_dir/.git" ]] || [[ ! -r "$git_repository_dir/.git" ]
     print_usage
 fi
 
+
 if [[ ! -w "$git_repository_dir/.git" ]]; then
     echo "ERROR: Missing write permissions for the git directory (-d): '$git_repository_dir/.git'!" >&2
     print_usage
