@@ -16,6 +16,9 @@ no_changes() {
 # $2 - Branch name
 # $3 - Commit details
 change_pulled() {
+    # run tests
+    # run build (docker image) 
+    # deploy 
     echo "Changes pulled: $*"
 }
 
